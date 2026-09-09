@@ -1,0 +1,14 @@
+# Normalize line endings
+src/**/*.tsx linguist-detectable
+
+*.woff binary
+
+*.yaml linguist-detectable=false
+*.min.css linguist-generated   
+*.map linguist-generated
+* text=auto eol=lf
+
+docs/* linguist-vendored
+*.png binary
+*.tsx linguist-detectable
+docs/**/*.html linguist-vendored
